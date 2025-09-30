@@ -871,6 +871,7 @@ ul {
 .burger-menu {
   position: relative;
   z-index: 1000;
+  margin-bottom: 40px;
 }
 .burger-menu-btn {
   position: absolute;
