@@ -29,7 +29,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
+      <div class="header-container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html"
             >Web<span class="logo-span">Studio</span></a
@@ -46,6 +46,11 @@
             </li>
           </ul>
         </nav>
+        <button class="header-btn" type="button">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-menu-list"></use>
+          </svg>
+        </button>
         <address class="header-contacts">
           <ul class="header-contacts-list">
             <li class="header-contacts-item">
@@ -69,6 +74,7 @@
           <button class="hero-btn" type="button">Order Service</button>
         </div>
       </section>
+
       <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Characteristics</h2>
@@ -448,7 +454,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div>
+        <div class="footer-social-container">
           <p class="footer-social-desc">Social media</p>
           <ul class="footer-social-list">
             <li class="footer-social-links">
@@ -496,14 +502,15 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+
+    <div class="modal-overlay visually-hidden">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-btn-svg"></use>
           </svg>
         </button>
-        <p class="modal-text"></p>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
         <form>
           <div class="modal-form-container">
             <label class="modal-form-label" for="user-name">Name</label>
@@ -570,13 +577,80 @@
                   <use
                     href="./images/icons.svg#icon-vector-svg"
                   ></use></svg></span
-              >I accept the terms and conditions of the
-              <a href="" class="checbox-label-link">Privacy Policy</a></label
+              ><span class="checkbox-label-text">
+                I accept the terms and conditions of the&nbsp;<a
+                  href=""
+                  class="checbox-label-link"
+                  >Privacy Policy</a
+                ></span
+              ></label
             >
           </div>
           <button class="modal-form-btn">Send</button>
         </form>
       </div>
+    </div>
+    <div class="burger-menu">
+      <button type="button" class="burger-menu-btn">
+        <svg class="burger-menu-btn-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-btn-svg"></use>
+        </svg>
+      </button>
+      <nav class="burger-menu-nav">
+        <ul class="burger-menu-list">
+          <li class="burger-menu-item">
+            <a class="burger-menu-link" href="./index.html">Studio</a>
+          </li>
+          <li class="burger-menu-item">
+            <a class="burger-menu-link" href="">Portfolio</a>
+          </li>
+          <li class="burger-menu-item">
+            <a class="burger-menu-link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="burger-contacts">
+        <ul class="burger-contacts-list">
+          <li class="burger-contacts-item">
+            <a class="burger-number" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+
+          <li class="burger-contacts-item">
+            <a class="burger-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="burger-social-list">
+          <li class="burger-social-links">
+            <a href="" class="social-link"
+              ><svg class="social-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-svg"></use></svg
+            ></a>
+          </li>
+          <li class="burger-social-links">
+            <a href="" class="social-link"
+              ><svg class="social-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-svg"></use></svg
+            ></a>
+          </li>
+          <li class="burger-social-links">
+            <a href="" class="social-link"
+              ><svg class="social-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-svg"></use></svg
+            ></a>
+          </li>
+          <li class="burger-social-links">
+            <a href="" class="social-link"
+              ><svg class="social-link-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-svg"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
     </div>
   </body>
 </html>
