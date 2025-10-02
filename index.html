@@ -29,14 +29,14 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-container">
+      <div class="header-container container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html"
             >Web<span class="logo-span">Studio</span></a
           >
           <ul class="header-list">
             <li class="header-list-item">
-              <a class="header-link" href="./index.html">Studio</a>
+              <a class="header-link active" href="./index.html">Studio</a>
             </li>
             <li class="header-list-item">
               <a class="header-link" href="">Portfolio</a>
@@ -62,6 +62,68 @@
               <a class="header-contact" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="burger-menu container">
+        <button type="button" class="burger-menu-btn">
+          <svg class="burger-menu-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-btn-svg"></use>
+          </svg>
+        </button>
+        <nav class="burger-menu-nav">
+          <ul class="burger-menu-list">
+            <li class="burger-menu-item">
+              <a class="burger-menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="burger-menu-item">
+              <a class="burger-menu-link" href="">Portfolio</a>
+            </li>
+            <li class="burger-menu-item">
+              <a class="burger-menu-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="burger-contacts">
+          <ul class="burger-contacts-list">
+            <li class="burger-contacts-item">
+              <a class="burger-number" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+
+            <li class="burger-contacts-item">
+              <a class="burger-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="burger-social-list">
+            <li class="burger-social-links">
+              <a href="" class="social-link"
+                ><svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-svg"></use></svg
+              ></a>
+            </li>
+            <li class="burger-social-links">
+              <a href="" class="social-link"
+                ><svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-svg"></use></svg
+              ></a>
+            </li>
+            <li class="burger-social-links">
+              <a href="" class="social-link"
+                ><svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-svg"></use></svg
+              ></a>
+            </li>
+            <li class="burger-social-links">
+              <a href="" class="social-link"
+                ><svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-svg"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </address>
@@ -137,6 +199,10 @@
             <li class="team-member">
               <img
                 class="team-photo"
+                srcset="
+                  ./images/mark-guerrero.jpg   1x,
+                  ./images/mark-guerrero2x.jpg 2x
+                "
                 src="./images/mark-guerrero.jpg"
                 alt="mark-guerrero"
                 width="264"
@@ -183,6 +249,7 @@
             <li class="team-member">
               <img
                 class="team-photo"
+                srcset="./images/tom-ford.jpg 1x, ./images/tom-ford2x.jpg 2x"
                 src="./images/tom-ford.jpg"
                 alt="tom-ford"
                 width="264"
@@ -229,6 +296,10 @@
             <li class="team-member">
               <img
                 class="team-photo"
+                srcset="
+                  ./images/camila-garcia.jpg   1x,
+                  ./images/camila-garcia2x.jpg 2x
+                "
                 src="./images/camila-garcia.jpg"
                 alt="camila-garcia"
                 width="264"
@@ -275,6 +346,10 @@
             <li class="team-member">
               <img
                 class="team-photo"
+                srcset="
+                  ./images/daniel-wilson.jpg   1x,
+                  ./images/daniel-wilson2x.jpg 2x
+                "
                 src="./images/daniel-wilson.jpg"
                 alt="daniel-wilson"
                 width="264"
@@ -589,68 +664,6 @@
           <button class="modal-form-btn">Send</button>
         </form>
       </div>
-    </div>
-    <div class="burger-menu">
-      <button type="button" class="burger-menu-btn">
-        <svg class="burger-menu-btn-icon" width="8" height="8">
-          <use href="./images/icons.svg#icon-close-btn-svg"></use>
-        </svg>
-      </button>
-      <nav class="burger-menu-nav">
-        <ul class="burger-menu-list">
-          <li class="burger-menu-item">
-            <a class="burger-menu-link" href="./index.html">Studio</a>
-          </li>
-          <li class="burger-menu-item">
-            <a class="burger-menu-link" href="">Portfolio</a>
-          </li>
-          <li class="burger-menu-item">
-            <a class="burger-menu-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="burger-contacts">
-        <ul class="burger-contacts-list">
-          <li class="burger-contacts-item">
-            <a class="burger-number" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-
-          <li class="burger-contacts-item">
-            <a class="burger-mail" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
-        <ul class="burger-social-list">
-          <li class="burger-social-links">
-            <a href="" class="social-link"
-              ><svg class="social-link-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram-svg"></use></svg
-            ></a>
-          </li>
-          <li class="burger-social-links">
-            <a href="" class="social-link"
-              ><svg class="social-link-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter-svg"></use></svg
-            ></a>
-          </li>
-          <li class="burger-social-links">
-            <a href="" class="social-link"
-              ><svg class="social-link-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook-svg"></use></svg
-            ></a>
-          </li>
-          <li class="burger-social-links">
-            <a href="" class="social-link"
-              ><svg class="social-link-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin-svg"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </address>
     </div>
   </body>
 </html>
